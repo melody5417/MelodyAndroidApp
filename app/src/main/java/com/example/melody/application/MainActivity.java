@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private ListView listView;
     String[][] mData = {
             {"AutoTest", "com.example.melody.application.AutoTest.AutoTestActivity"},
-            {"Item 2", "com.example.melody.application.AutoTest.AutoTestActivity"},
+            {"Raphael", "com.example.melody.application.Raphael.RaphaelActivity"},
             {"Item 3", "com.example.melody.application.AutoTest.AutoTestActivity"}};
 
     @Override
