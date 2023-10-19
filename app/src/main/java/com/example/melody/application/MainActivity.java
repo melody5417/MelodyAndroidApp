@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     String[][] mData = {
             {"AutoTest", "com.example.melody.application.AutoTest.AutoTestActivity"},
             {"Raphael", "com.example.melody.application.Raphael.RaphaelActivity"},
-            {"Item 3", "com.example.melody.application.AutoTest.AutoTestActivity"}};
+            {"Login", "com.example.melody.application.activity.LoginActivity"}};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
