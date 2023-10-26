@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     String[][] mData = {
             {"AutoTest", "com.example.melody.application.AutoTest.AutoTestActivity"},
             {"Raphael", "com.example.melody.application.Raphael.RaphaelActivity"},
+            {"BinderService", "com.example.melody.application.service.BindingServiceActivity"},
+            {"MessengerService", "com.example.melody.application.service.MessengerServiceActivity"},
             {"Login", "com.example.melody.application.activity.LoginActivity"}};
 
     @Override

@@ -4,6 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.melody.application'
+    // > 27 会限制禁用http， 需要配置 res/xml/network-security-config
     compileSdk 33
 
     defaultConfig {
@@ -42,4 +43,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.github.bytedance:memory-leak-detector:0.2.1'
+    // https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.12.0'
+
 }

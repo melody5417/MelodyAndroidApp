@@ -1,4 +1,4 @@
-package com.example.melody.application.AutoTest;
+package com.example.melody.application.autotest;
 
 public class Dog extends Animal {
 

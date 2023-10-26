@@ -1,4 +1,4 @@
-package com.example.melody.application.Common;
+package com.example.melody.application.common;
 
 import android.app.Application;
 import android.content.Context;

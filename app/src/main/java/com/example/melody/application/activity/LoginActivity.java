@@ -1,5 +1,6 @@
 package com.example.melody.application.activity;
 
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -34,8 +35,20 @@ public class LoginActivity extends BaseActivity {
             public void onClick(View v) {
                 String account = etAccount.getText().toString().trim();
                 String pwd = etPwd.getText().toString().trim();
-                showToast("account:" + account + ", password:" + pwd);
+                login(account, pwd);
             }
         });
+    }
+
+    private void login(String account, String pwd) {
+        if (TextUtils.isEmpty(account)) {
+            showToast("请输入账号");
+            return;
+        }
+        if (TextUtils.isEmpty(account) || TextUtils.isEmpty(pwd)) {
+            showToast("请输入密码");
+            return;
+        }
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.melody.application.Raphael;
+package com.example.melody.application.raphael;
 
 import android.Manifest;
 import android.Manifest.permission;
@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.pm.PackageManager;
 import android.view.View;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AlertDialog.Builder;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;

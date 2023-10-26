@@ -1,4 +1,4 @@
-package com.example.melody.application.AutoTest;
+package com.example.melody.application.autotest;
 
 import android.util.Log;
 import android.view.View;

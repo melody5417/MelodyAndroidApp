@@ -1,7 +1,7 @@
 package com.example.melody.application;
 
 import android.app.Application;
-import com.example.melody.application.Common.ContextHolder;
+import com.example.melody.application.common.ContextHolder;
 import java.io.File;
 
 import com.bytedance.raphael.Raphael;
